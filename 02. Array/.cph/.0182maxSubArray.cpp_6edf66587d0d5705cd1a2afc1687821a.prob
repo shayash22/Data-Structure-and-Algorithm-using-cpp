@@ -1,0 +1,1 @@
+{"name":"Local: 0182maxSubArray","url":"f:\\Apna College\\02. Array\\0182maxSubArray.cpp","tests":[{"id":1624348843418,"input":"5\n1 -4 3 2 1","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Apna College\\02. Array\\0182maxSubArray.cpp","group":"local","local":true}
