@@ -1,4 +1,4 @@
-// Subarray with given sum  
+// Subarray with given sums  
 #include<bits/stdc++.h>
 using namespace std;
 
