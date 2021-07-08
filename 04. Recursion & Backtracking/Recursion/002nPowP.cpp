@@ -15,7 +15,8 @@ int powN(int n,int p){
 }
 
 int main(){
-    int n,p; cin>>n>>p;
+    int n,p; 
+    cin>>n>>p;
     cout<<powN(n,p)<<endl;
     return 0;
 } 
