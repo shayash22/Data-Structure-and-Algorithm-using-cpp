@@ -9,7 +9,8 @@ int fibo(int n){
 }
 
 int main(){
-    int n; cin>>n;
+    int n; 
+    cin>>n;
     cout<<fibo(n)<<endl;
     return 0;
 }
