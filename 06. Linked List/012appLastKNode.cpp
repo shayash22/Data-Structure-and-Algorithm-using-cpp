@@ -59,12 +59,14 @@ void insertAtTail(node* head, int val){
     node* n=new node(val);
     if(head==NULL){
         head=n;
+        return;
     }
     node* temp=head;
     while(temp!=NULL){
         temp=temp->next;
     }
     temp->next=n;
+    // return;
 }
 
 int main(){

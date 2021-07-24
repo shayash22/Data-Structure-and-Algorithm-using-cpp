@@ -68,12 +68,14 @@ void insertAtTail(node* &head, int val){
     node* n=new node(val);
     if(head==NULL){
         head=n;
+        return;
     }
     node* temp=head;
-    while(temp!=NULL){
+    while(temp->next!=NULL){
         temp=temp->next;
     }
     temp->next=n;
+    return;
 }
 
 void intersect(node* &head1, node* &head2, int pos){
@@ -87,6 +89,7 @@ void intersect(node* &head1, node* &head2, int pos){
         temp2=temp2->next;
     }
     temp2->next=temp1;
+    return;
 }
 
 void display(node* head){
@@ -96,6 +99,7 @@ void display(node* head){
         temp=temp->next;
     }
     cout<<"NULL"<<endl;
+    return;
 }
 
 int main(){
