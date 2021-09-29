@@ -21,8 +21,6 @@ void reverseSentence(string s){
         cout<<st.top()<<" ";
         st.pop();
     }cout<<endl;  
-
-
 }
 
 int main(){
